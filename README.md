@@ -1,220 +1,120 @@
-# 🛡️ Cyber Security Projects
+<!-- Scripts & Tools | Muhammad Zaid -->
 
-> A growing collection of hands-on cybersecurity, ethical hacking, digital forensics, networking, and automation projects built for learning, research, and skill development.
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-success)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Cyber Security](https://img.shields.io/badge/Cyber-Security-red)
+# ⌁ SCRIPTS & TOOLS
 
----
+### Small tools. Practical security. Continuous learning.
 
-## 📖 About
+A growing collection of cybersecurity scripts, utilities, and experiments built while learning Python, networking, and security.
 
-This repository contains cybersecurity projects developed to strengthen practical skills in:
+<br>
 
-- 🔍 Penetration Testing
-- 🌐 Network Security
-- 🐍 Python for Cybersecurity
-- 🖥️ Ethical Hacking
-- 📊 Digital Forensics
-- 🔐 Cryptography
-- ⚙️ Automation
-- 🧪 Security Research
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-64748B?style=for-the-badge&logo=linux&logoColor=white)](#)
+[![Repository](https://img.shields.io/badge/Type-Security%20Tools-0F766E?style=for-the-badge)](#)
+[![GitHub stars](https://img.shields.io/github/stars/muhammadzaid2009-sudo/Scripts-and-Tools?style=for-the-badge&logo=github&color=E3B341)](https://github.com/muhammadzaid2009-sudo/Scripts-and-Tools/stargazers)
 
-Every project is built for **educational purposes**, allowing learners to understand security concepts through practical implementation in controlled environments.
+<br>
+
+[Browse tools](#-toolbox) · [Getting started](#-getting-started) · [Disclaimer](#-responsible-use)
+
+</div>
 
 ---
 
-## 🎯 Objectives
+## / ABOUT
 
-- Learn by building real-world security tools
-- Practice Python programming for cybersecurity
-- Explore offensive and defensive security concepts
-- Develop a strong cybersecurity portfolio
-- Improve problem-solving and scripting skills
+This repository is a hands-on collection of scripts and small security projects. It reflects my learning journey across **Python, networking, reconnaissance, packet analysis, and security testing**.
 
----
+The focus is on learning by building: understanding how a tool works, experimenting in a controlled lab, and improving the code over time. Some projects are early experiments and may need refinement before practical use.
 
-## 📂 Repository Structure
+## / TOOLBOX
 
-```
-Cyber-Security-Projects/
-│
-├── Project-01/
-├── Project-02/
-├── Project-03/
-├── Project-04/
-├── ...
-│
-├── README.md
-└── LICENSE
-```
+The repository currently includes the following scripts and projects:
 
----
+| Tool / file | Area | Source |
+|---|---|---|
+| **Port Scanner** | Network discovery | [Port_Scanner.py](./Port_Scanner.py) |
+| **Packet Analyzer** | Packet analysis | [PacketAnalyzer.py](./Packets%20Analyzer/PacketAnalyzer.py) |
+| **Email Enumeration** | OSINT / reconnaissance | [EmailEnumeration.py](./EmailEnumeration.py) |
+| **Social Media OSINT** | OSINT | [Social-Media OSINT.py](./Social-Media%20OSINT.py) |
+| **DoS Script** | Network security lab experiment | [Dos Script.py](./Dos%20Script.py) |
+| **Password Brute Force** | Authentication testing lab | [pass_brute_force.py](./pass_brute_force.py) |
+| **Python Reverse Shell** | Remote administration / lab study | [Python-reverse-shell.py](./Python-reverse-shell.py) |
+| **PHP Reverse Shell** | Remote administration / lab study | [PHPReverseShell.php](./PHPReverseShell.php) |
+| **Keylogger C2 Server** | Security research experiment | [KeyLogger-C2-Server.py](./KeyLogger-C2-Server.py) |
+| **PHP2Shell** | Security utility / experiment | [php2shell.py](./php2shell.py) |
+| **Toolkit** | Miscellaneous utilities | [toolkit.py](./toolkit.py) |
+| **Exploit script** | Vulnerability research lab | [exploit.py](./exploit.py) |
 
-## 🛠 Technologies
+> This is a learning repository, not a collection of production-ready security products. Features, dependencies, and maturity vary by project.
 
-- Python
-- Linux
-- Windows
-- Bash
-- PowerShell
-- Git & GitHub
-- Networking Tools
-- Virtual Machines
+## / TECH STACK
 
----
+<div align="center">
 
-## 📚 Topics Covered
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-2563EB?style=flat-square&logo=cisco&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-- Information Gathering
-- Network Scanning
-- Port Scanner
-- Banner Grabbing
-- DNS Enumeration
-- WHOIS Lookup
-- IP Geolocation
-- Hashing
-- Password Utilities
-- Encryption & Decryption
-- File Integrity Monitoring
-- Log Analysis
-- Malware Analysis
-- Packet Analysis
-- Digital Forensics
-- Threat Intelligence
-- OSINT
-- Web Security
-- Automation Scripts
-- Security Utilities
+</div>
 
----
+## / GETTING STARTED
 
-## 🚀 Getting Started
-
-### Clone the Repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/muhammadzaid2009-sudo/cyber-Security-Projects.git
+git clone https://github.com/muhammadzaid2009-sudo/Scripts-and-Tools.git
+cd Scripts-and-Tools
 ```
 
-Move into the directory:
+Use Python 3 where applicable. Check each script's source and dependencies before running it. Some projects may require additional packages or operating-system permissions.
 
-```bash
-cd cyber-Security-Projects
-```
+There is no single universal install command or entry point because each script is an independent project.
 
----
+## / PROJECT STATUS
 
-## ⚙ Requirements
+This repository is updated as I build and improve projects. A script may be experimental, incomplete, or specific to a particular lab setup. Read its source and validate its behavior in an isolated environment before use.
 
-- Python 3.10+
-- pip
+## / RESPONSIBLE USE
 
-Install dependencies:
+Some scripts in this repository demonstrate techniques that can affect other systems or collect sensitive input. They are provided for **authorized education and controlled security research only**.
 
-```bash
-pip install -r requirements.txt
-```
+- Use tools only on systems you own or have explicit permission to test.
+- Keep testing inside isolated labs and virtual machines.
+- Do not deploy monitoring or input-capture tools on devices or accounts without informed consent.
+- Do not use traffic-testing scripts against public services or networks.
+- You are responsible for complying with applicable laws and the rules of the environment you test.
 
----
+## / ROADMAP
 
-## ▶ Running Projects
+- [ ] Add clear usage documentation to each project
+- [ ] Add dependency lists and per-tool requirements
+- [ ] Improve input validation and error handling
+- [ ] Add safe test cases and sample outputs
+- [ ] Organize scripts into topic-based directories
+- [ ] Build more defensive and blue-team utilities
+- [ ] Add project screenshots or short demonstrations where useful
 
-Navigate to the desired project directory and execute:
+## / CONNECT
 
-```bash
-python main.py
-```
+<div align="center">
 
-or
+[![GitHub](https://img.shields.io/badge/GitHub-muhammadzaid2009--sudo-181717?style=flat-square&logo=github)](https://github.com/muhammadzaid2009-sudo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/muhammad-zaid2009/)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Profile-C11111?style=flat-square&logo=tryhackme)](https://tryhackme.com/p/muhammadzaid2009)
+[![Medium](https://img.shields.io/badge/Medium-Articles-000000?style=flat-square&logo=medium)](https://medium.com/@muhammadzaid2009)
 
-```bash
-python project_name.py
-```
-
----
-
-## 🎓 Learning Goals
-
-This repository is intended to help learners understand:
-
-- Networking Fundamentals
-- Python Automation
-- Security Concepts
-- Cybersecurity Methodologies
-- Defensive Security
-- Offensive Security
-- Incident Investigation
-- Secure Coding Practices
+</div>
 
 ---
 
-## ⚠ Disclaimer
+<div align="center">
 
-This repository is created **strictly for educational and research purposes**.
+<sub>Built for learning. Improved through practice. Shared with responsibility.</sub>
 
-All projects should be used only:
-
-- In personal labs
-- In virtual machines
-- On systems you own
-- With proper authorization
-
-The author is **not responsible** for any misuse of the code contained in this repository.
-
----
-
-## 📈 Roadmap
-
-- [ ] Networking Tools
-- [ ] Python Security Scripts
-- [ ] OSINT Projects
-- [ ] Digital Forensics Tools
-- [ ] Malware Analysis Utilities
-- [ ] Web Security Projects
-- [ ] Cryptography Projects
-- [ ] Automation Scripts
-- [ ] Blue Team Utilities
-- [ ] Red Team Labs
-
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a Pull Request
-
----
-
-## ⭐ Support
-
-If you found this repository useful:
-
-⭐ Star the repository
-
-🍴 Fork it
-
-📢 Share it with others
-
----
-
-## 📬 Contact
-
-GitHub: **Muhammad Zaid**
-
-Repository:
-
-https://github.com/muhammadzaid2009-sudo/cyber-Security-Projects
-
----
-
-> "The best way to learn cybersecurity is by building, breaking, fixing, and documenting."
-
-Happy Hacking! 🚀
+</div>
